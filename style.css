@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-Box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-Box > .profile{
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: 0px 0px 10px 7px rgb(244,244,244);
+}
+.profile > img{
+    border-radius: 100px;
+}
+span{
+    color: #757575;
+}
+p{
+    color: #757575;
+}
+ion-icon{
+    background-color: rgb(231, 231, 231);
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px;
+    color: #FF805F;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px 7px rgb(244,244,244);;
+    border-radius: 50px;
+    transition: .5s;
+}
+ion-icon:hover{
+    transform: scale(1.2);
+}
